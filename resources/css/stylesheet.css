@@ -32,3 +32,20 @@ nav span a {
   color: seashell;
   text-decoration: underline;
 }
+
+.our-mission {
+  background-image: url(../images/img-mission-background.jpg);
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.about {
+  display: block;
+  background-color: black;
+  text-align: center;
+}
