@@ -1,4 +1,9 @@
 html {
+  display: block;
+}
+
+body {
+  display: block;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -9,11 +14,13 @@ html {
 header {
   display: flex;
   position: fixed;
+  flex-wrap: wrap;
   height: 69px;
   width: 100%;
   z-index: 1;
   border-bottom: 1px solid seashell;
   align-items: center;
+  background-color: black;
 }
 
 .logo img {
@@ -26,26 +33,102 @@ header {
 nav span a {
   display: inline-block;
   position: relative;
-  left: 1080px;
+  left: 1060px;
   align-items: center;
   padding-right: 10px;
   color: seashell;
   text-decoration: underline;
 }
 
-.our-mission {
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+#mission {
   background-image: url(../images/img-mission-background.jpg);
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   height: 700px;
-  width: 1200px;
   justify-content: center;
-  text-align: center;
   padding-top: 70px;
 }
 
-.about {
+#mission, .about {
   display: block;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+
+.featured-tea {
+  display: block;
+  width: 1000px;
   background-color: black;
   text-align: center;
+}
+
+.teas {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+
+.teas img {
+  display: inline-block;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}
+
+.teas span {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 1000px;
+  margin-top: 10px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.locales {
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 500px;
+  justify-content: center;
+}
+
+.locales h2 {
+  display: block;
+  width: 1200px;
+  text-align: center;
+}
+
+.sites {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 300px;
+  height: auto;
+  margin-top: 15px;
+  background-color: black;
 }
