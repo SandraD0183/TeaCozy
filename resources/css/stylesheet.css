@@ -47,6 +47,13 @@ nav span a {
   opacity: 0.9;
 }
 
+h2, h3, h4 {
+  display: block;
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+}
+
 #mission {
   background-image: url(../images/img-mission-background.jpg);
   display: flex;
@@ -56,53 +63,41 @@ nav span a {
   padding-top: 70px;
 }
 
-#mission, .about {
+#mission .about {
   display: block;
   width: 100%;
   margin: auto;
   background-color: black;
-  justify-content: center;
   text-align: center;
 }
 
-.featured-tea {
+#store {
   display: block;
-  width: 1000px;
-  background-color: black;
-  text-align: center;
-}
-
-.teas {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   width: 1000px;
   height: 700px;
   margin: auto;
+  padding-top: 70px;
+  }
+
+.monthly-teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .teas img {
-  display: inline-block;
-  position: relative;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  padding: 5px;
   height: 200px;
   width: 300px;
+  margin: 10px;
 }
 
 .teas span {
-  display: inline-flex;
-  position: relative;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: block;
+  padding: 5px;
   text-align: center;
-  width: 1000px;
-  margin-top: 10px;
   font-weight: bold;
-  align-items: center;
 }
 
 .locales {
