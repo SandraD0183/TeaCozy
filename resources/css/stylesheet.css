@@ -134,3 +134,17 @@ h2, h3, h4 {
   justify-content: center;
   text-align: center;
 }
+
+.info {
+  display: block;
+  height: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  display: block;
+  text-align: left;
+  padding: 20px;
+  font-weight: bold;
+}
